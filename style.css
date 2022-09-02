@@ -1,0 +1,92 @@
+*{
+    padding: .55rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:  rgb(4, 4, 4);;
+    text-align: center;
+    background: #366bc7;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    width: 100%;
+    max-width: 50%;
+    min-height: 200px;
+    margin: 5% 25%;
+    padding: 1rem;
+    background: #3374e4a0;
+    box-shadow: 1px 1px 100px #005eff5b;
+    border-radius: 5px;
+}
+
+h1, p {
+    color: rgb(4, 4, 4);
+}
+
+.cashGivenDiv {
+    display: none;
+}
+
+.tableOutput {
+    display: none;
+}
+label{
+    color: var(--faint-green);
+    padding: 1rem;
+    font-size: larger;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+button{
+    font-size: larger;
+    padding: 0.5rem 1rem;
+    background-color:transparent;
+    color: rgb(4, 4, 4) ;
+    font-weight: bold;
+    margin: 1rem auto;
+    border: 1px solid black;
+}
+
+table{
+    margin: auto;
+    width: 80%;
+    table-layout: fixed;
+    
+    border-collapse: collapse;
+}
+
+caption{
+    padding: 1rem;
+    color: var(--faint-green);
+}
+
+table, th, td{
+    padding: 0.2rem;
+    color: var(--dark-green);
+    background-color:var(--faint-green);
+    border: 1px solid black ;
+    border-collapse: collapse;
+}
+
+th,td{
+    word-wrap: break-word;
+}
