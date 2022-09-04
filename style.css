@@ -6,7 +6,7 @@
 body{
     color:  rgb(4, 4, 4);;
     text-align: center;
-    background: #366bc7;
+    /* background: #366bc7; */
     height: 100vh;
     width: 100vw;
 }
@@ -21,9 +21,15 @@ body{
     min-height: 200px;
     margin: 5% 25%;
     padding: 1rem;
-    background: #3374e4a0;
-    box-shadow: 1px 1px 100px #005eff5b;
+    /* background: #3374e443; */
+    /* box-shadow: 1px 1px 10px #005eff5b; */
     border-radius: 5px;
+}
+
+.img{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
 }
 
 h1, p {
