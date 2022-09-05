@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
 *{
     padding: .55rem;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    color:  rgb(4, 4, 4);;
+    font-family: 'Mulish', sans-serif;
+    color:  rgb(4, 4, 4);
+    background:linear-gradient(40deg,white 0%,rgba(128, 128, 128, 0.512) 24%, white 50%,rgba(128, 128, 128, 0.512) 75%,white 100%);
     text-align: center;
-    /* background: #366bc7; */
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 .container {
@@ -19,17 +23,17 @@ body{
     width: 100%;
     max-width: 50%;
     min-height: 200px;
-    margin: 5% 25%;
+    margin: 5% 25% auto;
     padding: 1rem;
-    /* background: #3374e443; */
+    
     /* box-shadow: 1px 1px 10px #005eff5b; */
     border-radius: 5px;
 }
 
 .img{
     position: absolute;
-    right: 5%;
-    bottom: 5%;
+    right: 0%;
+    bottom: 2%;
 }
 
 h1, p {
