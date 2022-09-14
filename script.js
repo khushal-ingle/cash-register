@@ -21,7 +21,7 @@ nextButton.addEventListener ("click", ()=> {
         billAmount.readOnly = true;
         
     } else {
-        errorMessageShown("Bill amount should be greater than 0");
+        errorMessageShown("Field should not be empty or less than 0.");
     }
 });
 
